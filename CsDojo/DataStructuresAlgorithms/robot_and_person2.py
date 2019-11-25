@@ -35,7 +35,7 @@ class Person:
 r1 = Robot("Tom", "red", 30)
 r2 = Robot("Jerry", "blue", 40)
 p1 = Person("Alice", "aggressive", False, r2)
-p2 = Person("Becky", "aggressive", True, r1)
+p2 = Person("Becky", "talkative", True, r1)
 print(p1.robot_owned.introduce_self())
 print(p2.robot_owned.introduce_self())
 p1.sit_down()
